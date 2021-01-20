@@ -12,7 +12,7 @@ public class MainController {
     public Spinner<Integer> spinner3;
     public Spinner<Integer> spinner4;
     public TableView<Turn> history;
-    public ArrayList<Turn> turns = new ArrayList<>();
+    private ArrayList<Turn> turns = new ArrayList<>();
 
     public void doTurn() {
 
