@@ -78,15 +78,10 @@ public class MainController implements Initializable {
         int bulls = 0;
         int cows = 0;
 
-        //    for (int i = 0; i < 4; i++) {           // TODO count bulls
-        //        int usrN = userNumbers.get(i);
-        //        int myN = myNumbers.get(i);
-        //        if (usrN == myN) {
-        //            bulls++;
-        //        }
-        //    }
+        // TODO count bulls
+        // FIXME count bulls
 
-        for (int i = 0; i < 4; i++) {           // FIXME count bulls
+        for (int i = 0; i < 4; i++) {
             int myN = myNumbers.get(i);
             for (int j = 0; j < 4; j++) {
                 int usrN = userNumbers.get(j);
